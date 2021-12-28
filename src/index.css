@@ -3,3 +3,8 @@
   font-weight: normal;
   text-shadow: 0.5px 0 0 currentColor, 1px 0 0 currentColor;
 }
+
+.landmark {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+}

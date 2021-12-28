@@ -1,8 +1,134 @@
 [
     {
         "id": "Barrowcleft 1",
-        "text": "Barrow Bridge. One of several residential bridges in the city. The bridge is lined with homes, shops, and merchant stalls. Families of river-fisherswork from ramshackle wooden huts along the banks on either side. They hunt the large and dangerous wild river eels that gather to feed on refuse near the channel to the sea.",
+        "idx": 1,
+        "title": "Barrow Bridge",
+        "text": "One of several residential bridges in the city. The bridge is lined with homes, shops, and merchant stalls. Families of river-fisherswork from ramshackle wooden huts along the banks on either side. They hunt the large and dangerous wild river eels that gather to feed on refuse near the channel to the sea.",
+        "top": 60,
+        "left": 12
+    },
+    {
+        "id": "Barrowcleft 2",
+        "idx": 2,
+        "title": "Lightning Tower",
+        "text": "The lightning towers of Doskvol are marvels of electroplasmic engineering, requiring constant attention from the powerful Sparkwrights guild. The largest towers are over 200 feet tall and include their own internal generators to provide power to the lightning barrier that keeps the ravenous spirits of the deathlands out of the city.",
+        "top": 60.5,
+        "left": 3.5
+    },
+    {
+        "id": "Barrowcleft 3",
+        "idx": 3,
+        "title": "Barrowcleft Market",
+        "text": "This open-air marketplace provides a place for the radiant energy farms to sell fresh produce and goods made from their crops. Other related vendors have also sprung up here, including brewers and distillers, weavers, dyers, and goat breeders. The tough and close-knit people of Barrowcleft have managed to keep criminal influence out of their market and it's famous as a rare place for fair trade in the city.",
+        "top": 65,
+        "left": 11.5
+    },
+    {
+        "id": "Barrowcleft 4",
+        "idx": 4,
+        "title": "Radiant Energy Farm",
+        "text": "The wondrous power of radiant energy allows crops to grow in the darkness of Duskwall. Life in the city depends upon these farms, so their delicate radiant plants and irrigation systems are watched constantly by specially appointed deputies of the Watch.",
+        "top": 72,
+        "left": 20.5
+    },
+    
+    
+    {
+        "id": "Brightstone 1",
+        "idx": 1,
+        "title": "Unity Park",
+        "text": "A grand park, fountain, and roundabout featuring an enormous monument commemorating Imperial victory in the Unity War (or the War for Skovlan Independence, depending on who you talk to).",
+        "top": 30,
+        "left": 62.5
+    },
+    {
+        "id": "Brightstone 2",
+        "idx": 2,
+        "title": "Silver Market",
+        "text": "A curated open-air emporium overlooking the North Hook channel. Named for its original use as the primary marketplace for silver traders, it's now host to luxury goods vendors of all sorts, including rare Iruvian silks, spices from the Dagger Isles, horse-traders, carriage upholsterers, and rare alchemical distillations (including some illegal spirit essences—to which the City Watch turns a blind eye).",
+        "top": 26,
+        "left": 57.5
+    },
+    {
+        "id": "Brightstone 3",
+        "idx": 3,
+        "title": "The Sanctorium",
+        "text": "The chief cathedral dedicated to the Church of the Ecstasy of the Flesh. It's a towering edifice of buttresses and spires, originally commissioned by the Emperor during his last visit to Doskvol nearly 500 years ago. Devotees gather weekly to purify themselves in baptismal rites and through the ritual destruction of rogue spirits in electroplasm. The catacombs beneath contain the cremated ash of many famous and affluent citizens.",
+        "top": 26,
+        "left": 65.5
+    },
+    {
+        "id": "Brightstone 4",
+        "idx": 4,
+        "title": "Bowmore Bridge",
+        "text": "This massive structure of bright white stone and shimmering metal-work is said to be the largest bridge in the Imperium. Luxury apartments and shops perch all along its length from Brightstone to Whitecrown.",
+        "top": 22,
+        "left": 47.5
+    },
+    
+    {
+        "id": "Charhallow 1",
+        "idx": 1,
+        "title": "The Sheets",
+        "text": "Washers, tailors, and seamstresses congregate in this neighborhood, filling the alleyways between the buildings with the billowing fabrics of their trade. A secret association of anarchists among the working class meets here to plot their schemes for revolution.",
+        "top": 55,
+        "left": 35.5
+    },
+    {
+        "id": "Charhallow 2",
+        "idx": 2,
+        "title": "Strangford House",
+        "text": "The grand, fenced estate of the powerful Strangford family perches on the hill of a private island overlooking Charhollow. Many who live in the district toil in Strangford’s factories and workhouses, and few miss the chance to throw the evil eye in their direction when they catch glimpse of their house on the hill.",
+        "top": 53,
+        "left": 44.5
+    },
+    {
+        "id": "Charhallow 3",
+        "idx": 3,
+        "title": "Charhollow Market",
+        "text": "A public market fills the open square here, offering fair prices and decent goods to the local community.",
+        "top": 59,
+        "left": 45.5
+    }, 
+    {
+        "id": "Charhallow 4",
+        "idx": 4,
+        "title": "Kellen's",
+        "text": "One of the oldest pubs in the city, with a dizzying selection of Skovlander ales and whiskeys. Rich and poor alike rub elbows here to enjoy the traditional food and music with their drinks, though recently, the pub has become the target of masked anti-Skovlander bigots, who've vandalized the property and assaulted some patrons, shouting \"No Skovs!\" and \"Skovs go home!\"",
+        "top": 62,
+        "left": 41.5
+    },
+    
+    {
+        "id": "Whitecrown 1",
+        "idx": 1,
+        "title": "Lord Governor's Stronghold",
+        "text": "The Emperor originally commissioned this stronghold as a garrison for the Imperial Military stationed at North Hook prior to the invasion of Skovlan. It now houses the Lord Governor, their family, and governmental aides as well.",
         "top": 10,
-        "left": 10
+        "left": 41.5
+    },
+    {
+        "id": "Whitecrown 2",
+        "idx": 2,
+        "title": "Doskvol Academy",
+        "text": "Hailed as one of the finer institutions of learning in the Empire, the school is most well- known as the instructional facility for the leviathan hunter captains and their senior officers. Training cruises for new recruits are conducted year-round to replace the poor souls lost in the hunts.",
+        "top": 14.5,
+        "left": 32.5
+    },
+    {
+        "id": "Whitecrown 3",
+        "idx": 3,
+        "title": "Master Warden's Estate",
+        "text": "This gigantic, fortified manor is home to the Commander of the Spirit Wardens and is their primary training facility. It's said that some spirits are not destroyed at Bellweather—but are brought here instead for some unknown purpose.",
+        "top": 22,
+        "left": 20.5
+    },
+    {
+        "id": "Whitecrown 4",
+        "idx": 4,
+        "title": "North Hook Lighthouse",
+        "text": "This ancient structure has been converted into an electro-plasmic apparatus capable of providing a navigation beacon for hundreds of miles into the darkness of the Void Sea around Duskwall.",
+        "top": 28,
+        "left": 13
     }
 ]

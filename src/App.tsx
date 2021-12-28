@@ -3,7 +3,7 @@ import { MapInteractionCSS } from "react-map-interaction";
 import { LegendEntry } from "./LegendEntry";
 import { DistrictLabel } from "./DistrictLabel";
 import { Landmark } from "./Landmark";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import districts from "./districts.json";
 import districtLabels from "./district-labels.json";
 import landmarks from "./landmarks.json";
@@ -12,9 +12,15 @@ function App() {
   const [showDistrictLabels, setShowDistrictLabels] = useState(true);
   const [showLandmarks, setshowLandmarks] = useState(true);
 
+  useEffect(() => {
+    if (showLandmarks) {
+      ReactTooltip.rebuild();
+    }
+  }, [showLandmarks]);
+
   return (
     <div className="flex flex-row">
-      <div className="h-screen bg-black w-3/5">
+      <div className="h-screen bg-[#4e525b] w-3/5">
         <MapInteractionCSS minScale={0.3} maxScale={4}>
           <img src="./map-no-labels.jpg" alt="" />
           {showDistrictLabels &&
@@ -44,18 +50,15 @@ function App() {
               type="checkbox"
               onChange={(e) => {
                 setshowLandmarks(e.currentTarget.checked);
-                if (e.currentTarget.checked === true) {
-                  ReactTooltip.rebuild();
-                }
               }}
             />
             <span>Show Landmarks</span>
           </label>
         </div>
         <div className="text-lg p-4 space-y-4">
-          {districts.map((d) => {
-            return <LegendEntry key={d.title} {...d} />;
-          })}
+          {districts.map((d) => (
+            <LegendEntry key={d.title} {...d} />
+          ))}
         </div>
       </div>
       <ReactTooltip />
