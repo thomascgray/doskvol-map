@@ -1,0 +1,5 @@
+.fake-bold {
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-shadow: 0.5px 0 0 currentColor, 1px 0 0 currentColor;
+}
