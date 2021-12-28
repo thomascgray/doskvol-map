@@ -20,20 +20,22 @@ function App() {
 
   return (
     <div className="flex flex-row">
-      <div className="h-screen bg-[#4e525b] w-3/5">
+      <div className="h-screen w-3/5 bg-[#4e525b]">
         <MapInteractionCSS minScale={0.3} maxScale={4}>
-          <img src="./map-no-labels.jpg" alt="" />
+          <img src="./map-no-labels.jpg" className="" alt="" />
+
+          {showLandmarks &&
+            landmarks.map((l) => <Landmark key={l.id} {...l} />)}
+
           {showDistrictLabels &&
             districtLabels.map((dl) => (
               <DistrictLabel key={dl.title} {...dl} />
             ))}
-          {showLandmarks &&
-            landmarks.map((l) => <Landmark key={l.id} {...l} />)}
         </MapInteractionCSS>
       </div>
 
       <div className="h-screen w-2/5 font-im-fell">
-        <div>
+        <div className="h-[15%]">
           <label className="block p-4 flex flex-row items-center space-x-2">
             <input
               checked={showDistrictLabels}
@@ -55,7 +57,7 @@ function App() {
             <span>Show Landmarks</span>
           </label>
         </div>
-        <div className="text-lg p-4 space-y-4">
+        <div className="h-[85%] text-lg p-4 space-y-4 overflow-y-scroll">
           {districts.map((d) => (
             <LegendEntry key={d.title} {...d} />
           ))}
