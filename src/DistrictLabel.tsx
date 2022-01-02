@@ -10,11 +10,13 @@ export const DistrictLabel = (props: iDistrictLabel) => {
   return (
     <span
       style={{
-        top: `calc(${top}% - 0.5em)`,
-        left: `calc(${left}% - 0.5em)`,
-        transform: `rotate(${rotation}deg)`,
+        transform: `translateY(-50%) translateX(-50%) rotate(${rotation}deg)`,
+        textShadow:
+          "0px 0px #000, 0px 0px 2px #fff, 0px 0px 4px #fff, 0px 0px 6px #fff, 0px 0px 8px #fff, 0px 0px 8px #fff, 0px 0px 8px #fff, 0px 0px 8px #fff, 0px 0px 8px #fff, 0px 0px 8px #fff",
+        top: `${top}px`,
+        left: `${left}px`,
       }}
-      className="district-label absolute text-black font-im-fell-display text-2xl opacity-50 pointer-events-none"
+      className="absolute block text-black font-im-fell-display pointer-events-none text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-2xl"
     >
       {title}
     </span>

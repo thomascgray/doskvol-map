@@ -1,74 +1,74 @@
 [
     {
         "title": "Barrowcleft",
-        "top": 65,
-        "left": 4,
+        "top": 3200,
+        "left": 350,
         "rotation": -90
     },
     {
         "title": "Brightstone",
-        "top": 30,
-        "left": 58,
+        "top": 1450,
+        "left": 2100,
         "rotation": -20
     },
     {
         "title": "Charhollow",
-        "top": 58,
-        "left": 38,
+        "top": 2700,
+        "left": 1400,
         "rotation": 50
     },
     {
         "title": "Charterhall",
-        "top": 48,
-        "left": 54,
+        "top": 2200,
+        "left": 2100,
         "rotation": 45
     },
     {
         "title": "Coalridge",
-        "top": 67,
-        "left": 59,
+        "top": 3200,
+        "left": 2100,
         "rotation": 50
     },
     {
         "title": "Crow's Foot",
-        "top": 44,
-        "left": 36,
+        "top": 2000,
+        "left": 1400,
         "rotation": 0
     },
     {
         "title": "The Docks",
-        "top": 33,
-        "left": 35,
+        "top": 1500,
+        "left": 1400,
         "rotation": 0
     },
     {
         "title": "Dunslough",
-        "top": 79,
-        "left": 40,
+        "top": 3700,
+        "left": 1400,
         "rotation": 0
     },
     {
         "title": "Nightmarket",
-        "top": 61,
-        "left": 75,
+        "top": 2800,
+        "left": 2800,
         "rotation": 0
     },
     {
         "title": "Silkshore",
-        "top": 50,
-        "left": 14,
+        "top": 2300,
+        "left": 600,
         "rotation":45
     },
     {
         "title": "Six Towers",
-        "top": 43,
-        "left": 75,
+        "top": 2000,
+        "left": 2750,
         "rotation": -70
     },
     {
         "title": "Whitecrown",
-        "top": 12,
-        "left": 30,
+        "top": 600,
+        "left": 1200,
         "rotation": 0
     }
 ]

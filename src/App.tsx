@@ -5,65 +5,95 @@ import { DistrictLabel } from "./DistrictLabel";
 import { Landmark } from "./Landmark";
 import { useState, useEffect } from "react";
 import districts from "./districts.json";
-import districtLabels from "./district-labels.json";
-import landmarks from "./landmarks.json";
+import rawDistrictLabelData from "./district-labels.json";
+import rawLandmarkData from "./landmarks.json";
 import ReactTooltip from "react-tooltip";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import { LatLngExpression } from "leaflet";
+
+interface iReactMapValue {
+  scale: number;
+  translation: {
+    x: number;
+    y: number;
+  };
+}
 function App() {
   const [showDistrictLabels, setShowDistrictLabels] = useState(true);
   const [showLandmarks, setshowLandmarks] = useState(true);
+  const [markerData, setMarketData] = useState({
+    landmarks: [...rawLandmarkData],
+    districts: [...rawDistrictLabelData],
+  });
+
+  const [mapValue, setMapValue] = useState<iReactMapValue>({
+    scale: 1,
+    translation: { x: 0, y: 0 },
+  });
+
+  // const districtLabelData = [...districtLabels];
+
+  // useEffect(() => {
+  //   if (showLandmarks) {
+  //     ReactTooltip.rebuild();
+  //   }
+  // }, [showLandmarks]);
+
+  // x: 3439
+  // y: 4587
+
+  function handleResize() {
+    const relativeWidth = window.innerWidth / 3439;
+
+    const newDistrictLabels = markerData.districts.map((dl) => {
+      // get the original DL for this one
+      const ogDL = rawDistrictLabelData.find((rdl) => rdl.title === dl.title);
+      return {
+        ...dl,
+        top: ogDL!.top * relativeWidth,
+        left: ogDL!.left * relativeWidth,
+      };
+    });
+
+    setMarketData({
+      ...markerData,
+      districts: newDistrictLabels,
+    });
+  }
 
   useEffect(() => {
-    if (showLandmarks) {
-      ReactTooltip.rebuild();
-    }
-  }, [showLandmarks]);
+    window.addEventListener("load", handleResize);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("load", handleResize);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    <div className="flex flex-row">
-      <div className="h-screen w-3/5 bg-[#4e525b]">
-        <MapInteractionCSS minScale={0.3} maxScale={4}>
-          <img src="./map-no-labels.jpg" className="" alt="" />
+    <div className="h-screen w-screen bg-[#4e525b]">
+      <MapInteractionCSS
+        minScale={0.3}
+        maxScale={1.6}
+        value={mapValue}
+        onChange={(value: iReactMapValue) => setMapValue(value)}
+      >
+        <div className="h-screen w-screen relative">
+          <img src="./map-no-labels.jpg" className="" />
 
-          {showLandmarks &&
-            landmarks.map((l) => <Landmark key={l.id} {...l} />)}
-
-          {showDistrictLabels &&
-            districtLabels.map((dl) => (
-              <DistrictLabel key={dl.title} {...dl} />
-            ))}
-        </MapInteractionCSS>
-      </div>
-
-      <div className="h-screen w-2/5 font-im-fell">
-        <div className="h-[15%]">
-          <label className="block p-4 flex flex-row items-center space-x-2">
-            <input
-              checked={showDistrictLabels}
-              type="checkbox"
-              onChange={(e) => {
-                setShowDistrictLabels(e.currentTarget.checked);
-              }}
+          {markerData.districts.map((dl) => (
+            <DistrictLabel
+              key={dl.title}
+              title={dl.title}
+              top={dl.top}
+              left={dl.left}
+              rotation={dl.rotation}
             />
-            <span>Show District Labels</span>
-          </label>
-          <label className="block p-4 flex flex-row items-center space-x-2">
-            <input
-              checked={showLandmarks}
-              type="checkbox"
-              onChange={(e) => {
-                setshowLandmarks(e.currentTarget.checked);
-              }}
-            />
-            <span>Show Landmarks</span>
-          </label>
-        </div>
-        <div className="h-[85%] text-lg p-4 space-y-4 overflow-y-scroll">
-          {districts.map((d) => (
-            <LegendEntry key={d.title} {...d} />
           ))}
         </div>
-      </div>
-      <ReactTooltip />
+      </MapInteractionCSS>
     </div>
   );
 }
