@@ -104,16 +104,16 @@
         "idx": 1,
         "title": "Lord Governor's Stronghold",
         "text": "The Emperor originally commissioned this stronghold as a garrison for the Imperial Military stationed at North Hook prior to the invasion of Skovlan. It now houses the Lord Governor, their family, and governmental aides as well.",
-        "top": 10,
-        "left": 41.5
+        "top": 495,
+        "left": 1435
     },
     {
         "id": "Whitecrown 2",
         "idx": 2,
         "title": "Doskvol Academy",
         "text": "Hailed as one of the finer institutions of learning in the Empire, the school is most well- known as the instructional facility for the leviathan hunter captains and their senior officers. Training cruises for new recruits are conducted year-round to replace the poor souls lost in the hunts.",
-        "top": 14.5,
-        "left": 32.5
+        "top": 660,
+        "left": 1120
     },
     {
         "id": "Whitecrown 3",

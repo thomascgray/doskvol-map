@@ -22,6 +22,7 @@ interface iReactMapValue {
 function App() {
   const [showDistrictLabels, setShowDistrictLabels] = useState(true);
   const [showLandmarks, setshowLandmarks] = useState(true);
+
   const [markerData, setMarketData] = useState({
     landmarks: [...rawLandmarkData],
     districts: [...rawDistrictLabelData],
@@ -56,9 +57,20 @@ function App() {
       };
     });
 
+    const newLandmarks = markerData.landmarks.map((l) => {
+      // get the original DL for this one
+      const ogLandmark = rawLandmarkData.find((rl) => rl.title === l.title);
+      return {
+        ...l,
+        top: ogLandmark!.top * relativeWidth,
+        left: ogLandmark!.left * relativeWidth,
+      };
+    });
+
     setMarketData({
       ...markerData,
       districts: newDistrictLabels,
+      landmarks: newLandmarks,
     });
   }
 
@@ -83,17 +95,29 @@ function App() {
         <div className="h-screen w-screen relative">
           <img src="./map-no-labels.jpg" className="" />
 
-          {markerData.districts.map((dl) => (
+          {markerData.districts.map((districtLabel) => (
             <DistrictLabel
-              key={dl.title}
-              title={dl.title}
-              top={dl.top}
-              left={dl.left}
-              rotation={dl.rotation}
+              key={districtLabel.title}
+              title={districtLabel.title}
+              top={districtLabel.top}
+              left={districtLabel.left}
+              rotation={districtLabel.rotation}
+            />
+          ))}
+
+          {markerData.landmarks.map((landmark) => (
+            <Landmark
+              key={landmark.title}
+              idx={landmark.idx}
+              title={landmark.title}
+              text={landmark.text}
+              top={landmark.top}
+              left={landmark.left}
             />
           ))}
         </div>
       </MapInteractionCSS>
+      <ReactTooltip />
     </div>
   );
 }
