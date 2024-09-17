@@ -202,8 +202,8 @@
         "idx": 2,
         "title": "Dunvil Labor Camp",
         "text": "Poor prisoners who can't afford to bribe the staff at Ironhook spend most of their days toiling at Dunvil Labor Camp, loading precious ores onto barges for the rail station and breaking the larger rocks hauled from the Mire.",
-        "top": 2, 
-        "left": 1,
+        "top": 77,
+        "left": 55.5,
         "district": "Dunslough"
     },
     {
@@ -211,8 +211,8 @@
         "idx": 3,
         "title": "Dunslough Ghetto",
         "text": "The most destitute of the city end up in Dunslough, working the Mire for a pittance just to buy their daily bread. The city counts the space as 'runoff' for the prison grounds, and does nothing to maintain it.",
-        "top": 3, 
-        "left": 1,
+        "top": 83.5,
+        "left": 48.2,
         "district": "Dunslough"
     },
     {
@@ -220,8 +220,8 @@
         "idx": 4,
         "title": "The Mire",
         "text": "A massive mud-quarry pit, the Mire is the site of the impact of an ancient celestial body, which left behind a variety of precious ores and jewels embedded in the earth.",
-        "top": 4, 
-        "left": 1,
+        "top": 83.4,
+        "left": 55,
         "district": "Dunslough"
     },
 
@@ -230,8 +230,8 @@
         "idx": 1,
         "title": "The Veil",
         "text": "A luxurious social club known for its confidentiality and permissive policies regarding guests of arcane or unusual origins. Rolan Volaris, the proprietor and host, is a Tycherosi with an extremely unusual manifestation of his demonic blood: rather than legs, he has the body of a serpent from the waist down... or so people say. Volaris is rarely seen in person.",
-        "top": 1, 
-        "left": 1,
+        "top": 62, 
+        "left": 73,
         "district": "Nightmarket"
     },
     {
@@ -239,8 +239,8 @@
         "idx": 2,
         "title": "Dundridge & Sons",
         "text": "Considered by many to be the foremost tailor in Duskwall. The Dundridge family has provided the finest clothes and sartorial accoutrements to discerning citizens for over 300 years. Despite their legendary reputation, Dundridge's prices are very reasonable.",
-        "top": 2, 
-        "left": 1,
+        "top": 54.5, 
+        "left": 85.5,
         "district": "Nightmarket"
     },
     {
@@ -248,8 +248,8 @@
         "idx": 3,
         "title": "Vreen's Hound Races",
         "text": "The racing of specially bred hounds is currently in vogue among Doskvol's upper crust. A con man from the Dagger Isles calling himself 'Master Vreen' swindled a small fortune from gullible investors to create 'the premier hound racing track in the Imperium.' The investors have yet to see any returns, but Vreen assures them that a great windfall is due any day now.",
-        "top": 3, 
-        "left": 1,
+        "top": 60.5, 
+        "left": 83,
         "district": "Nightmarket"
     },
     {
@@ -257,8 +257,8 @@
         "idx": 4,
         "title": "The Devil's Tooth",
         "text": "A tavern known for its 'secret' menu of alchemical concoctions. Adventurous psychonauts may experiment with all manner of mind-altering (or spirit-altering) substances in the relative safety of Mistress Kember's comfortable establishment.",
-        "top": 4, 
-        "left": 1,
+        "top": 64, 
+        "left": 88,
         "district": "Nightmarket"
     },
 
@@ -267,8 +267,8 @@
         "idx": 1,
         "title": "The Spark Grounds",
         "text": "Beneath the crackling flares of a lightning tower, this open field draws crowds to watch the death-defying stunts of acrobats and circus performers, including the notorious 'spark flyers' who soar in manned kites adorned with bits of metal to attract arcs of electricity from the barrier in a pyrotechnic display.",
-        "top": 1, 
-        "left": 1,
+        "top": 48, 
+        "left": 9,
         "district": "Silkshore"
     },
     {
@@ -276,8 +276,8 @@
         "idx": 2,
         "title": "The Ease",
         "text": "The northern part of the district is more easily navigated by gondola than by coach, and the dozens of entryways into the canals are flanked by shops and brothels advertising their wares with colored electric lights and flying banners.",
-        "top": 2, 
-        "left": 1,
+        "top": 42, 
+        "left": 23,
         "district": "Silkshore"
     },
     {
@@ -285,8 +285,8 @@
         "idx": 3,
         "title": "Fogcrest",
         "text": "A high, peaked hilltop crowded with rowhouses jammed within the maze of narrow stairways that constitute its 'streets.' A bohemian community of artists, free-thinkers, psychedelic explorers, and philosophers.",
-        "top": 3, 
-        "left": 1,
+        "top": 53, 
+        "left": 20,
         "district": "Silkshore"
     },
     {
@@ -294,8 +294,8 @@
         "idx": 4,
         "title": "Ankhayat Park",
         "text": "This extravagantly landscaped space is the largest open area in the city, hosting many public festivals and events throughout the year. The Iruvian noble for whom the park is named keeps a falcon aviary and stable of fine horses at the park and sometimes organizes gamehawking for the nobility.",
-        "top": 4, 
-        "left": 1,
+        "top": 58.5, 
+        "left": 25.5,
         "district": "Silkshore"
     },
 
@@ -304,8 +304,8 @@
         "idx": 1,
         "title": "Charter Wall",
         "text": "Along the ruins of the old walls are a sprawl of artist colonies. Bohemian lovers of music and sculpture, these students are typically patronized by a single individual or family who expect their charges to master their craft and make art for their edification.",
-        "top": 1, 
-        "left": 1,
+        "top": 38, 
+        "left": 55,
         "district": "Charterhall"
     },
     {
@@ -313,8 +313,8 @@
         "idx": 2,
         "title": "Bellweather Crematorium",
         "text": "The site of the spirit bells and the rookery for the deathseeker crows. Bodies recovered by the Spirit Wardens are incinerated in electroplasm here to destroy their ghosts.",
-        "top": 2, 
-        "left": 1,
+        "top": 43, 
+        "left": 57,
         "district": "Charterhall"
     },
     {
@@ -322,8 +322,8 @@
         "idx": 3,
         "title": "Clerk Street",
         "text": "The main avenue of the district is lined with imposing governmental structures of all sorts, tucked behind iron fences, patrolled by a mix of Bluecoats on the sidewalks and mounted Imperial cavalry on the grounds.",
-        "top": 3, 
-        "left": 1,
+       "top": 42, 
+        "left": 64,
         "district": "Charterhall"
     },
     {
@@ -331,8 +331,8 @@
         "idx": 4,
         "title": "Javan Park",
         "text": "The great alchemist for whom this park is named contrived to formulate soil and seeds that could produce real, growing trees, without sunlight or radiant energy. They are horrifically toxic to all living things and must not be touched, but they still grow beautifully here, over 100 years later.",
-        "top": 4, 
-        "left": 1,
+        "top": 49, 
+        "left": 54,
         "district": "Charterhall"
     },
     {
@@ -340,8 +340,8 @@
         "idx": 5,
         "title": "Charterhall University",
         "text": "A dozen buildings have been converted into classrooms and dormitories for the students of this modest-seeming but nevertheless prestigious institution. The school's massive Sparkwright Tower, where experts of spark-craft are trained, looms huge over the district, often belching fire and smoke from the more vigorous lessons.",
-        "top": 5, 
-        "left": 1,
+        "top": 50, 
+        "left": 68,
         "district": "Charterhall"
     },
 
@@ -350,8 +350,8 @@
         "idx": 1,
         "title": "Coalridge Mine",
         "text": "The site of the first permanent settlement at the river delta, the mine was originally built by the ancient Skov kingdom, who called it Doskovol—literally, 'The Skov's Coal.' The mine still operates over 1000 years later, though demand for coal has dropped sharply as the Imperium adopts electroplasmic power more and more widely.",
-        "top": 1, 
-        "left": 1,
+        "top": 63, 
+        "left": 56,
         "district": "Coalridge"
     },
     {
@@ -359,8 +359,8 @@
         "idx": 2,
         "title": "The Old Rail Yard",
         "text": "Before Gaddoc Station was built, this industrial rail yard was a center for commerce in the city. The Old Yard now serves only a couple heavy cargo trains daily, with many of its old rail cars rusted in place where they were abandoned.",
-        "top": 2, 
-        "left": 1,
+        "top": 66, 
+        "left": 63,
         "district": "Coalridge"
     },
     {
@@ -368,8 +368,8 @@
         "idx": 3,
         "title": "The Ironworks",
         "text": "The Ironworks is a sprawling collection of massive industrial workhouses. Cruel foremen drive indentured laborers around the clock to keep up with the massive production demands to replace and refit leviathan hunter ships as well as the need for goods transported out to the Imperium at large.",
-        "top": 3, 
-        "left": 1,
+        "top": 72, 
+        "left": 62,
         "district": "Coalridge"
     },
     {
@@ -377,8 +377,8 @@
         "idx": 4,
         "title": "Brickston",
         "text": "The most densely packed residential area in Duskwall. Brickston is a cramped jumble of multi-story brick row houses, stacked one atop the other. Many of the toughest scoundrels of the underworld hail from here, learning the harsh lessons of survival and gang life within its dark maze.",
-        "top": 4, 
-        "left": 1,
+        "top": 69, 
+        "left": 69,
         "district": "Coalridge"
     },
 
@@ -387,8 +387,8 @@
         "idx": 1,
         "title": "Crow's Nest",
         "text": "An ancient tower from before the cataclysm that has been a ritual sanctum, an astronomer's laboratory, and a Bluecoat watch post—before its current role as the headquarters of the district's chief gang, the Crows.",
-        "top": 1, 
-        "left": 1,
+        "top": 46, 
+        "left": 41,
         "district": "Crow's Foot"
     },
     {
@@ -396,8 +396,8 @@
         "idx": 2,
         "title": "Tangletown",
         "text": "Hundreds of years ago, one of the massive leviathan hunter ships was partially sunk in the river. Since then, it's collected an attendant flotilla of tiny watercraft, all lashed together into a floating neighborhood. Tangletown is considered neutral ground among the street gangs of Crow's Foot, and no violence is allowed there.",
-        "top": 2, 
-        "left": 1,
+        "top": 49, 
+        "left": 29,
         "district": "Crow's Foot"
     },
     {
@@ -405,8 +405,8 @@
         "idx": 3,
         "title": "Strathmill House",
         "text": "The lost children and unwanted orphans of Crow's Foot inevitably pass through the halls of Strathmill House. Some are cared for and trained for jobs at the docks or the workhouses of Coalridge. Others are quietly instructed in the arts of the lookouts and runners used by the gangs of the district—all for a small fee to Strathmill House, of course.",
-        "top": 3, 
-        "left": 1,
+        "top": 49, 
+        "left": 48,
         "district": "Crow's Foot"
     },
     {
@@ -414,9 +414,46 @@
         "idx": 4,
         "title": "Red Sash Sword Academy",
         "text": "This large mansion has been converted into a training school for the Falling Star style of Iruvian sword play. The Red Sashes, an Iruvian gang who run several luxury drug dens in the district, claim it as their HQ and cover operation for their illicit operations.",
-        "top": 4, 
-        "left": 1,
+        "top": 44, 
+        "left": 47,
         "district": "Crow's Foot"
+    },
+
+    {
+        "id": "Six Towers 1",
+        "idx": 1,
+        "title": "Rowan House",
+        "text": "One of the last of the original six towers, this antique building resembles an ancient castle from history books, complete with moat, draw-bridge, and arrow-slit windows. The powerful Rowan family rules their holdings from within the fortress, rarely venturing beyond the security of its thick stone walls.",
+        "top": 34, 
+        "left": 77.5,
+        "district": "Six Towers"
+    },
+    {
+        "id": "Six Towers 2",
+        "idx": 2,
+        "title": "Mistshore Park",
+        "text": "This dark and overgrown space overlooks the eastern branch of the river Dosk and the deathlands beyond. In old folk ballads, young lovers who could not be together would commit suicide in this park. Whatever the truth of it, the park is certainly haunted now.",
+        "top": 36, 
+        "left": 84.5,
+        "district": "Six Towers"
+    },
+    {
+        "id": "Six Towers 3",
+        "idx": 3,
+        "title": "Scurlock Manor",
+        "text": "The Scurlock family came to Duskwall centuries ago and was once a great force in the city, before some curse or calamity befell their line. This tumble-down manor house and tangle of vines is all that remains of their original fortune. It’s said that a young nephew or cousin still resides there, but Lord Scurlock himself has moved on to finer abodes.",
+        "top": 41, 
+        "left": 88,
+        "district": "Six Towers"
+    },
+    {
+        "id": "Six Towers 4",
+        "idx": 4,
+        "title": "Arms of the Weeping Lady",
+        "text": "This grand building, formerly an opera house, is now a soup-kitchen and bunkhouse for the destitute, run by the charity of the Weeping Lady. Locals use this landmark as the demarcation between the districts of Charterhall and Six Towers.",
+        "top": 48, 
+        "left": 73,
+        "district": "Six Towers"
     }
 
 ]

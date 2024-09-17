@@ -7,7 +7,7 @@
     },
     {
         "title": "Brightstone",
-        "top": 30,
+        "top": 33,
         "left": 58,
         "rotation": -20
     },
@@ -20,20 +20,20 @@
     {
         "title": "Charterhall",
         "top": 48,
-        "left": 54,
-        "rotation": 45
+        "left": 57,
+        "rotation": -20
     },
     {
         "title": "Coalridge",
-        "top": 67,
-        "left": 59,
-        "rotation": 50
+        "top": 62,
+        "left": 57,
+        "rotation": 20
     },
     {
         "title": "Crow's Foot",
-        "top": 44,
-        "left": 36,
-        "rotation": 0
+        "top": 41,
+        "left": 34,
+        "rotation": 15
     },
     {
         "title": "The Docks",
@@ -49,15 +49,15 @@
     },
     {
         "title": "Nightmarket",
-        "top": 61,
+        "top": 58.5,
         "left": 75,
         "rotation": 0
     },
     {
         "title": "Silkshore",
-        "top": 50,
+        "top": 45,
         "left": 14,
-        "rotation":45
+        "rotation":30
     },
     {
         "title": "Six Towers",
