@@ -14,7 +14,7 @@ export const DistrictLabel = (props: iDistrictLabel) => {
         left: `calc(${left}% - 0.5em)`,
         transform: `rotate(${rotation}deg)`,
       }}
-      className="district-label absolute text-black font-im-fell-display text-2xl opacity-50 pointer-events-none"
+      className="district-label absolute text-black font-im-fell-display text-4xl opacity-70 pointer-events-none"
     >
       {title}
     </span>
